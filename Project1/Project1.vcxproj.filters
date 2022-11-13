@@ -21,31 +21,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="glad.c">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="VertexBuffer.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="VertexArray.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Renderer.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="IndexBuffer.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Shader.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="Texture.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="ComputeShader.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="glew.c">
@@ -75,32 +51,26 @@
     <ClCompile Include="stb.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="..\include\imgui\imgui_impl_glut.cpp">
+      <Filter>소스 파일\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\include\imgui\imgui_impl_opengl2.cpp">
+      <Filter>소스 파일\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="particleSystem.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="render_particles.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="shaders.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="particles.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="VertexBuffer.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Renderer.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="VertexArray.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="VertexBufferLayout.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="IndexBuffer.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Shader.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="Texture.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
-    <ClInclude Include="ComputeShader.h">
-      <Filter>헤더 파일</Filter>
-    </ClInclude>
     <ClInclude Include="..\include\imgui\imstb_truetype.h">
       <Filter>헤더 파일\imgui</Filter>
     </ClInclude>
@@ -125,31 +95,67 @@
     <ClInclude Include="..\include\imgui\imstb_textedit.h">
       <Filter>헤더 파일\imgui</Filter>
     </ClInclude>
+    <ClInclude Include="..\include\imgui\imgui_impl_glut.h">
+      <Filter>헤더 파일\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\imgui\imgui_impl_opengl2.h">
+      <Filter>헤더 파일\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="particleSystem.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="particleSystem.cuh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="particles_kernel.cuh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="particles_kernel_impl.cuh">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="render_particles.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="shaders.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="helper_gl.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="helper_timer.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="exception.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="helper_math.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="helper_cuda.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="helper_string.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="helper_functions.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="helper_image.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="paramgl.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="param.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Basic.shader">
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <CudaCompile Include="particleSystem_cuda.cu">
       <Filter>소스 파일</Filter>
-    </None>
-    <None Include="BucketResolver.shader">
-      <Filter>소스 파일</Filter>
-    </None>
-    <None Include="VelocityGravityWallEuler.shader">
-      <Filter>소스 파일</Filter>
-    </None>
-    <None Include="compute_density_pressure.comp">
-      <Filter>소스 파일</Filter>
-    </None>
-    <None Include="compute_force.comp">
-      <Filter>소스 파일</Filter>
-    </None>
-    <None Include="integrate.comp">
-      <Filter>소스 파일</Filter>
-    </None>
-    <None Include="particle.vert">
-      <Filter>소스 파일</Filter>
-    </None>
-    <None Include="particle.frag">
-      <Filter>소스 파일</Filter>
-    </None>
+    </CudaCompile>
   </ItemGroup>
 </Project>

@@ -1,12 +1,64 @@
-﻿  main.cpp
-C:\Users\junyong\Desktop\capstone\project\Project1\Project1\main.cpp(224,42): warning C4244: '=': 'double'에서 'T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-          with
-          [
-              T=float
-          ]
-C:\Users\junyong\Desktop\capstone\project\Project1\Project1\main.cpp(233,71): warning C4244: '=': 'double'에서 'T'(으)로 변환하면서 데이터가 손실될 수 있습니다.
-          with
-          [
-              T=float
-          ]
+﻿  sph_main.cpp
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include\cuda.h(874,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.8\include\cuda.h(13822,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+C:\Users\junyong\Desktop\capstone\project\Project1\Project1\helper_math.h(1359,39): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\junyong\Desktop\capstone\project\Project1\Project1\helper_math.h(1359,28): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\junyong\Desktop\capstone\project\Project1\Project1\helper_math.h(1363,50): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\junyong\Desktop\capstone\project\Project1\Project1\helper_math.h(1363,39): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\junyong\Desktop\capstone\project\Project1\Project1\helper_math.h(1363,28): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\junyong\Desktop\capstone\project\Project1\Project1\helper_math.h(1367,61): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\junyong\Desktop\capstone\project\Project1\Project1\helper_math.h(1367,50): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\junyong\Desktop\capstone\project\Project1\Project1\helper_math.h(1367,39): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\junyong\Desktop\capstone\project\Project1\Project1\helper_math.h(1367,28): warning C4244: '인수': 'double'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\junyong\Desktop\capstone\project\Project1\Project1\sph_main.cpp(198,33): warning C4244: '인수': 'float'에서 'GLsizei'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\junyong\Desktop\capstone\project\Project1\Project1\sph_main.cpp(198,19): warning C4244: '인수': 'float'에서 'GLsizei'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\junyong\Desktop\capstone\project\Project1\Project1\sph_main.cpp(282,17): warning C4244: '=': 'GLint'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\junyong\Desktop\capstone\project\Project1\Project1\sph_main.cpp(283,18): warning C4244: '=': 'GLint'에서 'float'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\junyong\Desktop\capstone\project\Project1\Project1\sph_main.cpp(385,35): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+C:\Users\junyong\Desktop\capstone\project\Project1\Project1\sph_main.cpp(385,21): warning C4244: '인수': 'float'에서 'int'(으)로 변환하면서 데이터가 손실될 수 있습니다.
+     C:\Users\junyong\Desktop\capstone\project\Project1\x64\Debug\Project1.lib 라이브러리 및 C:\Users\junyong\Desktop\capstone\project\Project1\x64\Debug\Project1.exp 개체를 생성하고 있습니다.
+LINK : warning LNK4098: 'MSVCRT' defaultlib가 다른 라이브러리와 충돌합니다. /NODEFAULTLIB:library를 사용하십시오.
+LINK : warning LNK4217: '__glewActiveTexture'에 정의된 'glew.obj' 기호를 함수 'imgui_impl_opengl3.obj'에서 '"void __cdecl ImGui_ImplOpenGL3_RenderDrawData(struct ImDrawData *)" (?ImGui_ImplOpenGL3_RenderDrawData@@YAXPEAUImDrawData@@@Z)'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewBlendEquation'에 정의된 'glew.obj' 기호를 함수 'imgui_impl_opengl3.obj'에서 '"void __cdecl ImGui_ImplOpenGL3_SetupRenderState(struct ImDrawData *,int,int,unsigned int)" (?ImGui_ImplOpenGL3_SetupRenderState@@YAXPEAUImDrawData@@HHI@Z)'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewBlendFuncSeparate'에 정의된 'glew.obj' 기호를 함수 'imgui_impl_opengl3.obj'에서 '"void __cdecl ImGui_ImplOpenGL3_RenderDrawData(struct ImDrawData *)" (?ImGui_ImplOpenGL3_RenderDrawData@@YAXPEAUImDrawData@@@Z)'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewBindBuffer'에 정의된 'glew.obj' 기호를 함수 'imgui_impl_opengl3.obj'에서 '"bool __cdecl ImGui_ImplOpenGL3_CreateDeviceObjects(void)" (?ImGui_ImplOpenGL3_CreateDeviceObjects@@YA_NXZ)'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewBufferData'에 정의된 'glew.obj' 기호를 함수 'imgui_impl_opengl3.obj'에서 '"void __cdecl ImGui_ImplOpenGL3_RenderDrawData(struct ImDrawData *)" (?ImGui_ImplOpenGL3_RenderDrawData@@YAXPEAUImDrawData@@@Z)'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewDeleteBuffers'에 정의된 'glew.obj' 기호를 함수 'imgui_impl_opengl3.obj'에서 '"void __cdecl ImGui_ImplOpenGL3_DestroyDeviceObjects(void)" (?ImGui_ImplOpenGL3_DestroyDeviceObjects@@YAXXZ)'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewGenBuffers'에 정의된 'glew.obj' 기호를 함수 'imgui_impl_opengl3.obj'에서 '"bool __cdecl ImGui_ImplOpenGL3_CreateDeviceObjects(void)" (?ImGui_ImplOpenGL3_CreateDeviceObjects@@YA_NXZ)'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewAttachShader'에 정의된 'glew.obj' 기호를 함수 'imgui_impl_opengl3.obj'에서 '"bool __cdecl ImGui_ImplOpenGL3_CreateDeviceObjects(void)" (?ImGui_ImplOpenGL3_CreateDeviceObjects@@YA_NXZ)'이(가) 가져왔습니다.
+LINK : warning LNK4286: '__glewAttachShader'에 정의된 'glew.obj' 기호를 'sph_main.obj'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewBlendEquationSeparate'에 정의된 'glew.obj' 기호를 함수 'imgui_impl_opengl3.obj'에서 '"void __cdecl ImGui_ImplOpenGL3_RenderDrawData(struct ImDrawData *)" (?ImGui_ImplOpenGL3_RenderDrawData@@YAXPEAUImDrawData@@@Z)'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewCompileShader'에 정의된 'glew.obj' 기호를 함수 'imgui_impl_opengl3.obj'에서 '"bool __cdecl ImGui_ImplOpenGL3_CreateDeviceObjects(void)" (?ImGui_ImplOpenGL3_CreateDeviceObjects@@YA_NXZ)'이(가) 가져왔습니다.
+LINK : warning LNK4286: '__glewCompileShader'에 정의된 'glew.obj' 기호를 'sph_main.obj'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewCreateProgram'에 정의된 'glew.obj' 기호를 함수 'imgui_impl_opengl3.obj'에서 '"bool __cdecl ImGui_ImplOpenGL3_CreateDeviceObjects(void)" (?ImGui_ImplOpenGL3_CreateDeviceObjects@@YA_NXZ)'이(가) 가져왔습니다.
+LINK : warning LNK4286: '__glewCreateProgram'에 정의된 'glew.obj' 기호를 'sph_main.obj'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewCreateShader'에 정의된 'glew.obj' 기호를 함수 'imgui_impl_opengl3.obj'에서 '"bool __cdecl ImGui_ImplOpenGL3_CreateDeviceObjects(void)" (?ImGui_ImplOpenGL3_CreateDeviceObjects@@YA_NXZ)'이(가) 가져왔습니다.
+LINK : warning LNK4286: '__glewCreateShader'에 정의된 'glew.obj' 기호를 'sph_main.obj'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewDeleteProgram'에 정의된 'glew.obj' 기호를 함수 'imgui_impl_opengl3.obj'에서 '"void __cdecl ImGui_ImplOpenGL3_DestroyDeviceObjects(void)" (?ImGui_ImplOpenGL3_DestroyDeviceObjects@@YAXXZ)'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewDeleteShader'에 정의된 'glew.obj' 기호를 함수 'imgui_impl_opengl3.obj'에서 '"void __cdecl ImGui_ImplOpenGL3_DestroyDeviceObjects(void)" (?ImGui_ImplOpenGL3_DestroyDeviceObjects@@YAXXZ)'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewDetachShader'에 정의된 'glew.obj' 기호를 함수 'imgui_impl_opengl3.obj'에서 '"void __cdecl ImGui_ImplOpenGL3_DestroyDeviceObjects(void)" (?ImGui_ImplOpenGL3_DestroyDeviceObjects@@YAXXZ)'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewEnableVertexAttribArray'에 정의된 'glew.obj' 기호를 함수 'imgui_impl_opengl3.obj'에서 '"void __cdecl ImGui_ImplOpenGL3_SetupRenderState(struct ImDrawData *,int,int,unsigned int)" (?ImGui_ImplOpenGL3_SetupRenderState@@YAXPEAUImDrawData@@HHI@Z)'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewGetAttribLocation'에 정의된 'glew.obj' 기호를 함수 'imgui_impl_opengl3.obj'에서 '"bool __cdecl ImGui_ImplOpenGL3_CreateDeviceObjects(void)" (?ImGui_ImplOpenGL3_CreateDeviceObjects@@YA_NXZ)'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewGetProgramInfoLog'에 정의된 'glew.obj' 기호를 함수 'imgui_impl_opengl3.obj'에서 '"bool __cdecl CheckProgram(unsigned int,char const *)" (?CheckProgram@@YA_NIPEBD@Z)'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewGetProgramiv'에 정의된 'glew.obj' 기호를 함수 'imgui_impl_opengl3.obj'에서 '"bool __cdecl CheckProgram(unsigned int,char const *)" (?CheckProgram@@YA_NIPEBD@Z)'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewGetShaderInfoLog'에 정의된 'glew.obj' 기호를 함수 'imgui_impl_opengl3.obj'에서 '"bool __cdecl CheckShader(unsigned int,char const *)" (?CheckShader@@YA_NIPEBD@Z)'이(가) 가져왔습니다.
+LINK : warning LNK4286: '__glewGetShaderInfoLog'에 정의된 'glew.obj' 기호를 'sph_main.obj'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewGetShaderiv'에 정의된 'glew.obj' 기호를 함수 'imgui_impl_opengl3.obj'에서 '"bool __cdecl CheckShader(unsigned int,char const *)" (?CheckShader@@YA_NIPEBD@Z)'이(가) 가져왔습니다.
+LINK : warning LNK4286: '__glewGetShaderiv'에 정의된 'glew.obj' 기호를 'sph_main.obj'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewGetUniformLocation'에 정의된 'glew.obj' 기호를 함수 'imgui_impl_opengl3.obj'에서 '"bool __cdecl ImGui_ImplOpenGL3_CreateDeviceObjects(void)" (?ImGui_ImplOpenGL3_CreateDeviceObjects@@YA_NXZ)'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewLinkProgram'에 정의된 'glew.obj' 기호를 함수 'imgui_impl_opengl3.obj'에서 '"bool __cdecl ImGui_ImplOpenGL3_CreateDeviceObjects(void)" (?ImGui_ImplOpenGL3_CreateDeviceObjects@@YA_NXZ)'이(가) 가져왔습니다.
+LINK : warning LNK4286: '__glewLinkProgram'에 정의된 'glew.obj' 기호를 'sph_main.obj'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewShaderSource'에 정의된 'glew.obj' 기호를 함수 'imgui_impl_opengl3.obj'에서 '"bool __cdecl ImGui_ImplOpenGL3_CreateDeviceObjects(void)" (?ImGui_ImplOpenGL3_CreateDeviceObjects@@YA_NXZ)'이(가) 가져왔습니다.
+LINK : warning LNK4286: '__glewShaderSource'에 정의된 'glew.obj' 기호를 'sph_main.obj'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewUniform1i'에 정의된 'glew.obj' 기호를 함수 'imgui_impl_opengl3.obj'에서 '"void __cdecl ImGui_ImplOpenGL3_SetupRenderState(struct ImDrawData *,int,int,unsigned int)" (?ImGui_ImplOpenGL3_SetupRenderState@@YAXPEAUImDrawData@@HHI@Z)'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewUniformMatrix4fv'에 정의된 'glew.obj' 기호를 함수 'imgui_impl_opengl3.obj'에서 '"void __cdecl ImGui_ImplOpenGL3_SetupRenderState(struct ImDrawData *,int,int,unsigned int)" (?ImGui_ImplOpenGL3_SetupRenderState@@YAXPEAUImDrawData@@HHI@Z)'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewUseProgram'에 정의된 'glew.obj' 기호를 함수 'imgui_impl_opengl3.obj'에서 '"void __cdecl ImGui_ImplOpenGL3_RenderDrawData(struct ImDrawData *)" (?ImGui_ImplOpenGL3_RenderDrawData@@YAXPEAUImDrawData@@@Z)'이(가) 가져왔습니다.
+LINK : warning LNK4286: '__glewUseProgram'에 정의된 'glew.obj' 기호를 'sph_main.obj'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewVertexAttribPointer'에 정의된 'glew.obj' 기호를 함수 'imgui_impl_opengl3.obj'에서 '"void __cdecl ImGui_ImplOpenGL3_SetupRenderState(struct ImDrawData *,int,int,unsigned int)" (?ImGui_ImplOpenGL3_SetupRenderState@@YAXPEAUImDrawData@@HHI@Z)'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewDrawElementsBaseVertex'에 정의된 'glew.obj' 기호를 함수 'imgui_impl_opengl3.obj'에서 '"void __cdecl ImGui_ImplOpenGL3_RenderDrawData(struct ImDrawData *)" (?ImGui_ImplOpenGL3_RenderDrawData@@YAXPEAUImDrawData@@@Z)'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewBindSampler'에 정의된 'glew.obj' 기호를 함수 'imgui_impl_opengl3.obj'에서 '"void __cdecl ImGui_ImplOpenGL3_RenderDrawData(struct ImDrawData *)" (?ImGui_ImplOpenGL3_RenderDrawData@@YAXPEAUImDrawData@@@Z)'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewBindVertexArray'에 정의된 'glew.obj' 기호를 함수 'imgui_impl_opengl3.obj'에서 '"bool __cdecl ImGui_ImplOpenGL3_CreateDeviceObjects(void)" (?ImGui_ImplOpenGL3_CreateDeviceObjects@@YA_NXZ)'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewDeleteVertexArrays'에 정의된 'glew.obj' 기호를 함수 'imgui_impl_opengl3.obj'에서 '"void __cdecl ImGui_ImplOpenGL3_RenderDrawData(struct ImDrawData *)" (?ImGui_ImplOpenGL3_RenderDrawData@@YAXPEAUImDrawData@@@Z)'이(가) 가져왔습니다.
+LINK : warning LNK4217: '__glewGenVertexArrays'에 정의된 'glew.obj' 기호를 함수 'imgui_impl_opengl3.obj'에서 '"void __cdecl ImGui_ImplOpenGL3_RenderDrawData(struct ImDrawData *)" (?ImGui_ImplOpenGL3_RenderDrawData@@YAXPEAUImDrawData@@@Z)'이(가) 가져왔습니다.
+LINK : warning LNK4217: 'glewInit'에 정의된 'glew.obj' 기호를 함수 'sph_main.obj'에서 '"void __cdecl init(void)" (?init@@YAXXZ)'이(가) 가져왔습니다.
   Project1.vcxproj -> C:\Users\junyong\Desktop\capstone\project\Project1\x64\Debug\Project1.exe
